@@ -34,30 +34,19 @@ let entertainment = ["Playing cards, Counting license plates", "Singing", "Sleep
 // (10 points): As a user, I want to display my completed trip in the console.
 // (5 points): As a developer, I want all of my functions to have a Single Responsibility. Remember, each function should do just one thing!
 
-  let userInput = prompt("Please select Yes or No. Would you like to go on a day trip?: ");
-
+ 
   function daytrip(){
-    if (userInput == "Yes" || "yes"){
-        console.log("Great! Calculating!")
+
+  }
 
 
-
-
-
-
-
-    }
-    else if (userInput == "No" || "no"){
-        console.log("Sorry to hear that. Please come back when you're ready to go on a trip.")
-    }
-    else {
-        console.log ("Please make another selection.")
-    }
-
-
-
-
-
+let userInput = prompt("Please select Yes or No. Would you like to go on a day trip?: ");
+if (userInput == "Yes" || "yes"){
+    console.log("Great! Calculating!");
 }
-
-
+else if (userInput == "No" || "no"){
+    console.log("Sorry to hear that. Please come back when you're ready to go on a trip.");
+}
+else{
+    console.log ("Please make another selection.");
+}
